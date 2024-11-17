@@ -1,0 +1,20 @@
+# Ignore compiled class files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore out directory (if used for build outputs)
+out/
