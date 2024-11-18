@@ -1,20 +1,19 @@
-# Ignore compiled class files
+# Compiled files
 *.class
 
-# Ignore package files
-*.jar
-*.war
-
-# Ignore IDE-specific files
+# IntelliJ IDEA
 .idea/
 *.iml
 
-# Ignore logs
+# Output directories
+out/
+target/
+
+# Logs
 *.log
 
-# Ignore operating system files
-.DS_Store
-Thumbs.db
+# Sensitive files
+*.env
 
-# Ignore out directory (if used for build outputs)
-out/
+# Database (if sensitive data exists)
+employeeemanagement.sql
